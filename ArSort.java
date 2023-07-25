@@ -20,6 +20,7 @@ public class ArSort {
                 }
             }
         }
+        System.out.println("The sorted array is: ");
         for(int g :arr){
             System.out.print(g);
         }
