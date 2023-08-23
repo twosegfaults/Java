@@ -9,7 +9,7 @@ public class DigitReverser{
         if(num==0){
             System.out.println("The reversed number is 0.");
         }
-        else if(num>=0){
+        else if(num>0){
             while(t1>0){
                 t1= t1/10;
                 dig++;
