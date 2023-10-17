@@ -8,6 +8,7 @@ class Problematic{
     public static void findFile() throws IOException{
         File newFile =new File("test");
         FileInputStream stream = new FileInputStream(newFile);
+        stream.close();
     }
     public static void noFile() throws IOException{
         throw new IOException("its literally called no file/ why called this method??");
@@ -32,9 +33,10 @@ public class lab_8{
         for(int i=0; i<5; i++){
             try{
                 int j =0;
-                String serror = null;
+                //String serror = null;
                 int oof = 70/j;
-                System.out.println(serror.length());
+                System.out.println(oof);
+                //System.out.println(serror.length());
             }
             catch(ArithmeticException e){
                 System.out.println("Why u divide by zero?");
