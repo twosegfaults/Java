@@ -12,7 +12,7 @@ class Threader implements Runnable
                   try
                   {
                         System.out.println("Run method: " + message);
-                        Thread.sleep(100);
+                        Thread.sleep(1000);
                   }
                   catch (InterruptedException ie)
                   {
